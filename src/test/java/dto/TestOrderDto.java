@@ -9,6 +9,30 @@ public class TestOrderDto {
     String comment;
     long id;
 
+    public String getStatus() {
+        return status;
+    }
+
+    public int getCourierId() {
+        return courierId;
+    }
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public String getCustomerPhone() {
+        return customerPhone;
+    }
+
+    public String getComment() {
+        return comment;
+    }
+
+    public long getId() {
+        return id;
+    }
+
     public TestOrderDto(String customerName, String customerPhone, String comment) {
         this.status = "OPEN";
         this.courierId = 0;
